@@ -16,3 +16,4 @@ class Record(models.Model):
 
     def __str__(self):
         return (f"{self.first_name} {self.last_name}")
+    # means return only first and last name when a record is called
